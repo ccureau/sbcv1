@@ -10,3 +10,12 @@ ACIA_CONTROL	= $C003
 .ZEROPAGE
 ptr1:
 .WORD $0000
+
+memcpysrc:
+.WORD $0000
+
+memcpydst:
+.WORD $0000
+
+memcpyblk:
+.WORD $0000
